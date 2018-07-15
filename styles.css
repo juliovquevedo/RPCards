@@ -2,13 +2,33 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
 .platter-cards, .main-page, .sandwiches { 
     display: inline-block;
     text-align: center;
+    background-color: #005395;
+    padding: 30px 0px;
+    margin: 0px;
+    color: white;
+    text-shadow: black 1px 1px;
 }
 
 .main-left, .main-center, .main-right {
     display: inline-block;
+}
+
+.main-left {
+    max-height: 800px;
+    overflow: auto;
+}
+
+.main-right {
+    max-height: 800px;
+    overflow: auto;
 }
 
 .platter-cards, .main-left {
@@ -16,14 +36,14 @@
 }
 
 .main-page, .main-center {
-    width: 68%;
+    width: 69%;
 }
 
 .sandwiches, .main-right {
     width: 15%;
 }
 
-.main-left, .main-center {
+.main-center {
     border-right: dashed black 1px;
 }
 
@@ -54,9 +74,12 @@
 }
 
 .platter {
-    background-color: lightcoral;
-    padding: 20px;
+    background-color: #ffd204;;
+    padding: 45px 20px;
     font-size: 1.5em;
-    margin-bottom: 1px;
-    height: 100px;
+    margin-bottom: 2px;
+}
+
+.platter div {
+    font-size: 1.1rem;
 }
