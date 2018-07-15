@@ -1,3 +1,7 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
 .platter-cards, .main-page, .sandwiches { 
     display: inline-block;
     text-align: center;
@@ -21,5 +25,38 @@
 
 .main-left, .main-center {
     border-right: dashed black 1px;
-    height: 500px;
+}
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+    display: inline-block;
+    width: 49%;
+    height: 400px;
+}
+
+.top-left {
+    border-right: dashed black 1px;
+    border-bottom: dashed black 1px;
+}
+
+.top-right {
+    border-left: dashed black 1px;
+    border-bottom: dashed black 1px;
+}
+
+.bottom-left {
+    border-right: dashed black 1px;
+    border-top: dashed black 1px;
+}
+
+.bottom-right {
+    border-left: dashed black 1px;
+    border-top: dashed black 1px;
+}
+
+.platter {
+    background-color: lightcoral;
+    padding: 20px;
+    font-size: 1.5em;
+    margin-bottom: 1px;
+    height: 100px;
 }
