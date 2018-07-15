@@ -1,0 +1,16 @@
+.platter-cards, .main-page, .sandwiches { 
+    display: inline-block;
+    text-align: center;
+}
+
+.platter-cards {
+    width: 24%;
+}
+
+.main-page {
+    width: 50%;
+}
+
+.sandwiches {
+    width: 24%;
+}
