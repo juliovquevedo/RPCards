@@ -3,14 +3,23 @@
     text-align: center;
 }
 
-.platter-cards {
-    width: 24%;
+.main-left, .main-center, .main-right {
+    display: inline-block;
 }
 
-.main-page {
-    width: 50%;
+.platter-cards, .main-left {
+    width: 15%;
 }
 
-.sandwiches {
-    width: 24%;
+.main-page, .main-center {
+    width: 68%;
+}
+
+.sandwiches, .main-right {
+    width: 15%;
+}
+
+.main-left, .main-center {
+    border-right: dashed black 1px;
+    height: 500px;
 }
