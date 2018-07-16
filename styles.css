@@ -74,9 +74,22 @@ body {
 }
 
 .platter {
-    background-color: #ffd204;;
+/*    background-color: #ffd204;*/
+    background-color: #005395;
     padding: 45px 20px;
     font-size: 1.5em;
+    margin-bottom: 2px;
+    color: white;
+}
+
+.platter div {
+    font-size: 1.1rem;
+}
+
+.sandwich {
+    background-color: #ffd204;;
+    padding: 10px 10px;
+    font-size: 1.2em;
     margin-bottom: 2px;
 }
 
