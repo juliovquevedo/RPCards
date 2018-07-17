@@ -4,7 +4,11 @@
 
 body {
     background-color: #f4f4f4;
-    margin: 0;
+    margin: 0 0 0 16px;
+}
+
+header {
+    margin-bottom: 5px;
 }
 
 .platter-cards, .main-page, .sandwiches { 
@@ -15,19 +19,22 @@ body {
     margin: 0px;
     color: white;
     text-shadow: black 1px 1px;
+    border-radius: 10px;
 }
 
 .main-left, .main-center, .main-right {
-    display: inline-block;
+/*    display: inline-block;*/
+    float: left;
+    margin-right: 4px;
 }
 
 .main-left {
-    max-height: 800px;
+/*    max-height: 00px;*/
     overflow: auto;
 }
 
 .main-right {
-    max-height: 800px;
+/*    max-height: 800px;*/
     overflow: auto;
 }
 
@@ -36,7 +43,7 @@ body {
 }
 
 .main-page, .main-center {
-    width: 69%;
+    width: 68%;
 }
 
 .sandwiches, .main-right {
@@ -76,9 +83,10 @@ body {
 .platter {
 /*    background-color: #ffd204;*/
     background-color: #005395;
-    padding: 45px 20px;
+    padding: 20px 20px;
+    border-radius: 15px;
     font-size: 1.5em;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     color: white;
 }
 
@@ -89,10 +97,11 @@ body {
 .sandwich {
     background-color: #ffd204;;
     padding: 10px 10px;
-    font-size: 1.2em;
+    border-radius: 10px;
+    font-size: 1.1rem;
     margin-bottom: 2px;
 }
 
-.platter div {
-    font-size: 1.1rem;
+.sandwich summary {
+    font-size: 1.2rem;
 }
