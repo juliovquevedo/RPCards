@@ -15,7 +15,7 @@
             
             <section class="main-left">
                 <div>
-                    <details class="platter">
+                    <details class="platter" id="drag1" draggable="true" ondragstart="drag(event)">
                         <summary>Best Sellers</summary>
                         <div>#3 Monster Veggie</div>
                         <div>#10 California Turkey</div>
@@ -87,7 +87,7 @@
             </section>
             
             <section class="main-center">
-                <div class="top-left"></div>
+                <div class="top-left" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
                 <div class="top-right"></div>
                 <div class="bottom-left"></div>
                 <div class="bottom-right"></div>
@@ -104,6 +104,8 @@
                     </details>
                 </div>
             </section>
+        
+    <script src="app.js"></script>
 <!--        </main>-->
     </body>
 </html>
