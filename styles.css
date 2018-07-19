@@ -4,7 +4,7 @@
 
 body {
     background-color: #f4f4f4;
-    margin: 0 0 0 16px;
+    margin: 0 0 0 6px;
 }
 
 header {
@@ -29,12 +29,12 @@ header {
 }
 
 .main-left {
-/*    max-height: 00px;*/
+    max-height: 800px;
     overflow: auto;
 }
 
 .main-right {
-/*    max-height: 800px;*/
+    max-height: 800px;
     overflow: auto;
 }
 
@@ -43,16 +43,18 @@ header {
 }
 
 .main-page, .main-center {
-    width: 68%;
+    width: 69%;
 }
 
 .sandwiches, .main-right {
     width: 15%;
 }
 
+/*
 .main-center {
     border-right: dashed black 1px;
 }
+*/
 
 .top-left, .top-right, .bottom-left, .bottom-right {
     display: inline-block;
