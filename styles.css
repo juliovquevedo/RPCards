@@ -101,7 +101,23 @@ header {
     display: none;
 }
 
+#drag2 > .hide-show {
+    display: none;
+}
+
+#drag3 > .hide-show {
+    display: none;
+}
+
 #div1 > #drag1 .hide-show {
+    display: contents;
+}
+
+#div1 > #drag2 .hide-show {
+    display: contents;
+}
+
+#div1 > #drag3 .hide-show {
     display: contents;
 }
 
@@ -109,9 +125,7 @@ header {
     display: none;
 }
 
-.visible {
-    visibility: visible;
-}
+
 
 .platter-name {
     font-size: 2rem;
