@@ -16,7 +16,7 @@ function drop(ev) {
 //        "<h1>Best Sellers</h1>" +
 //        "#3 Monster Veggie: ";
 //    document.getElementsByClassName("hide-show")[0].style.display = "contents";
-    populate(data, "div1");
+//    populate(data, "div1");
 }
 
 function populate(d) {
@@ -38,7 +38,7 @@ function populate(d) {
             "<span style='color:red';>RED</span>: <span style='font-size: 1.2rem'>#15 Ranch Roast:</span> " +
             "Roast Beef, cream cheese, ranch dressing, sundried " + 
             "tomatoes, lettuce, tomatoes, bacon. </br>" +
-            "<span>DOUBLE</span>: <span style='font-size: 1.2rem'>#30 Basil Cashew Chicken:</span> " +
+            "<span>DOUBLE</span>: <span style='font-size: 1.2        rem'>#30 Basil Cashew Chicken:</span> " +
             "Chicken Salad, basil mayo, lettuce, tomatoes, " +
             "avocado, cashews, alfalfa sprouts. </br>"
     }

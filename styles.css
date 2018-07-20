@@ -60,7 +60,7 @@ header {
 /*    display: inline-block;*/
     float: left;
     width: 49%;
-    height: 400px;
+    height: 500px;
 }
 
 .top-left {
@@ -97,7 +97,15 @@ header {
     font-size: 1.1rem;
 }
 
-.hide-show {
+#drag1 > .hide-show {
+    display: none;
+}
+
+#div1 > #drag1 .hide-show {
+    display: contents;
+}
+
+#div1 .platter {
     display: none;
 }
 
@@ -110,12 +118,24 @@ header {
     text-align: center;
 }
 
+.color {
+    font-size: 1.2rem;
+}
+
 .sandwich {
     background-color: #ffd204;;
     padding: 10px 10px;
     border-radius: 10px;
     font-size: 1.1rem;
     margin-bottom: 2px;
+}
+
+.sandwich-name {
+    font-size: 1.2rem;
+}
+
+.sandwich-print {
+    padding: 5px;
 }
 
 .sandwich summary {
