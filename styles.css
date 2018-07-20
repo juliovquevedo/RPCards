@@ -57,7 +57,8 @@ header {
 */
 
 .top-left, .top-right, .bottom-left, .bottom-right {
-    display: inline-block;
+/*    display: inline-block;*/
+    float: left;
     width: 49%;
     height: 400px;
 }
@@ -94,6 +95,19 @@ header {
 
 .platter div {
     font-size: 1.1rem;
+}
+
+.hide-show {
+    display: none;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.platter-name {
+    font-size: 2rem;
+    text-align: center;
 }
 
 .sandwich {
