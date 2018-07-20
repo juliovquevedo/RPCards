@@ -23,7 +23,6 @@ header {
 }
 
 .main-left, .main-center, .main-right {
-/*    display: inline-block;*/
     float: left;
     margin-right: 4px;
 }
@@ -50,14 +49,7 @@ header {
     width: 15%;
 }
 
-/*
-.main-center {
-    border-right: dashed black 1px;
-}
-*/
-
 .top-left, .top-right, .bottom-left, .bottom-right {
-/*    display: inline-block;*/
     float: left;
     width: 49%;
     height: 500px;
@@ -109,6 +101,14 @@ header {
     display: none;
 }
 
+#drag4 > .hide-show {
+    display: none;
+}
+
+#drag5 > .hide-show {
+    display: none;
+}
+
 #div1 > #drag1 .hide-show {
     display: contents;
 }
@@ -121,11 +121,17 @@ header {
     display: contents;
 }
 
+#div1 > #drag4 .hide-show {
+    display: contents;
+}
+
+#div1 > #drag5 .hide-show {
+    display: contents;
+}
+
 #div1 .platter {
     display: none;
 }
-
-
 
 .platter-name {
     font-size: 2rem;
