@@ -10,5 +10,7 @@ function drop(ev) {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data).cloneNode(true));
-    ev.target.ondragover = " ";
+    if (data != "drag10"){
+        ev.target.ondragover = " ";
+    }
 }
