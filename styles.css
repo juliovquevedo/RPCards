@@ -89,6 +89,66 @@ header {
     font-size: 1.1rem;
 }
 
+[id*="drag"] > .hide-show {
+    display: none;
+}
+
+[id*="div"] > [id*="drag"] .hide-show {
+    display: contents;
+}
+
+[id*="div"] .platter {
+    display: none;
+}
+
+.platter-name {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.color {
+    font-size: 1.2rem;
+}
+
+.sandwich {
+    background-color: #ffd204;;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+}
+
+.sandwich-name {
+    font-size: 1.2rem;
+}
+
+.sandwich-print {
+    padding: 5px;
+}
+
+.sandwich summary {
+    font-size: 1.2rem;
+}
+
+/*
+#div1 .platter {
+    display: none;
+}
+
+#div2 .platter {
+    display: none;
+}
+
+#div3 .platter {
+    display: none;
+}
+
+#div4 .platter {
+    display: none;
+}
+*/
+
+/*
 #drag1 > .hide-show {
     display: none;
 }
@@ -128,208 +188,244 @@ header {
 #drag10 > .hide-show {
     display: none;
 }
+*/
 
+/*
 #div1 > #drag1 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag2 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag3 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag4 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag5 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag6 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag7 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag8 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag9 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div1 > #drag10 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag1 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag2 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag3 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag4 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag5 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag6 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag7 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag8 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag9 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div2 > #drag10 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag1 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag2 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag3 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag4 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag5 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag6 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag7 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag8 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag9 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div3 > #drag10 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag1 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag2 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag3 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag4 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag5 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag6 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag7 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag8 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag9 .hide-show {
     display: contents;
 }
+*/
 
+/*
 #div4 > #drag10 .hide-show {
     display: contents;
 }
-
-#div1 .platter {
-    display: none;
-}
-
-#div2 .platter {
-    display: none;
-}
-
-#div3 .platter {
-    display: none;
-}
-
-#div4 .platter {
-    display: none;
-}
-
-.platter-name {
-    font-size: 2rem;
-    text-align: center;
-}
-
-.color {
-    font-size: 1.2rem;
-}
-
-.sandwich {
-    background-color: #ffd204;;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    margin-bottom: 2px;
-}
-
-.sandwich-name {
-    font-size: 1.2rem;
-}
-
-.sandwich-print {
-    padding: 5px;
-}
-
-.sandwich summary {
-    font-size: 1.2rem;
-}
+*/
