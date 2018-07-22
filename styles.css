@@ -109,6 +109,10 @@ header {
     display: none;
 }
 
+#drag6 > .hide-show {
+    display: none;
+}
+
 #div1 > #drag1 .hide-show {
     display: contents;
 }
@@ -129,7 +133,23 @@ header {
     display: contents;
 }
 
+#div1 > #drag6 .hide-show {
+    display: contents;
+}
+
 #div1 .platter {
+    display: none;
+}
+
+#div2 .platter {
+    display: none;
+}
+
+#div3 .platter {
+    display: none;
+}
+
+#div4 .platter {
     display: none;
 }
 
