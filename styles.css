@@ -130,6 +130,24 @@ header {
     font-size: 1.2rem;
 }
 
+@media print {
+    header, .main-left, .main-right {
+        display: none;
+    }
+    
+    .main-center {
+        width: 100%;
+    }
+    
+    .platter-name {
+        margin-top: 10px;
+    }
+    
+    .top-left, .top-right, .bottom-left, .bottom-right {
+        border: none;
+    }
+}
+
 /*
 #div1 .platter {
     display: none;
