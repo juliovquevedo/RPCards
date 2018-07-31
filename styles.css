@@ -112,6 +112,7 @@ header {
 .platter-name {
     font-size: 2rem;
     text-align: center;
+    margin: 10px 0;
 }
 
 .color {
@@ -136,6 +137,15 @@ header {
 
 .sandwich summary {
     font-size: 1.2rem;
+}
+
+.image-holder {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.image {
+    width: 100%;
 }
 
 @media print {
