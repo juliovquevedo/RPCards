@@ -7,17 +7,6 @@ body {
     margin: 0 -16px 0 2px;
 }
 
-/*
-ul {
-    background-color: black;
-}
-
-li {
-    display: inline-block;
-    color: #f4f4f4;
-}
-*/
-
 header {
     margin-bottom: 5px;
 }
@@ -29,14 +18,10 @@ header {
     padding: 10px 0px;
     color: #f4f4f4;
     margin: -2px;
-/*    background-color: #005395;*/
-/*    text-shadow: black 1px 1px;*/
-/*    border-radius: 10px;*/
 }
 
 .main-left, .main-center, .main-right {
     float: left;
-/*    margin-right: 4px;*/
 }
 
 .main-left {
@@ -88,7 +73,6 @@ header {
 }
 
 .platter {
-/*    background-color: #ffd204;*/
     background-color: #005395;
     padding: 10px 20px;
     border-radius: 5px;
@@ -110,6 +94,18 @@ header {
 }
 
 [id*="div"] .platter {
+    display: none;
+}
+
+[id*="drags"] > .hide-show {
+    display: none;
+}
+
+[id*="div"] > [id*="drags"] .hide-show {
+    display: contents;
+}
+
+[id*="div"] .sandwich {
     display: none;
 }
 
